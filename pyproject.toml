@@ -1,0 +1,22 @@
+[project]
+name = "InterfolioPDFgen"
+version = "1.0.0"
+authors = [
+    {name="Chris Burns", email="cburns@carnegiescience.edu"},
+]
+description = "InterfolioPDFgen re-bundles PDFs from Interfolio"
+readme = "README.rst"
+requires-python = ">=3.8"
+keywords = ["PDF","interfolio"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pypdf",
+    "reportlab"]
+
+[project.scripts]
+InterfolioPDFgen = "InterfolioPDFgen.makePDFDist:main"

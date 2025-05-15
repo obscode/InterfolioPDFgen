@@ -23,6 +23,6 @@ Use pip to install:
       "Download CSV".
 2. With the .zip and .csv files, run the PDF generator command:
 
-   `InterfolioPDFgen [.zip file] [.csv file]`
+   `InterfolioPDFgen [-subkey subkey] [-outzip outzip] zipfile csvfile`
 
 3. You will end up with a new .zip file that you can share.
