@@ -15,8 +15,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
 dependencies = [
-    "pypdf",
+    "pypdf2",
     "reportlab"]
 
 [project.scripts]
 InterfolioPDFgen = "InterfolioPDFgen.makePDFDist:main"
+ExtractSection = "InterfolioPDFgen.getSections:main"
